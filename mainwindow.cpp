@@ -6,6 +6,7 @@ MainWindow::MainWindow(QWidget *parent)
 {
     CentralWidget *cw = new CentralWidget(this);
     setCentralWidget(cw);
+    setWindowTitle("Тестовая программа....");
 }
 
 MainWindow::~MainWindow()
